@@ -1,0 +1,367 @@
+html[data-theme="valentine"],
+[data-theme="valentine"] {
+  color-scheme: light;
+  
+  /* Primary colors - Pink/Rose */
+  --primary: #f64a8a;
+  --primary-focus: #f41e74;
+  --primary-content: #ffffff;
+  
+  /* Secondary colors - Pink accent */
+  --secondary: #f926c2;
+  --secondary-focus: #d61a9c;
+  --secondary-content: #ffffff;
+  
+  /* Accent colors - Rose */
+  --accent: #f8757e;
+  --accent-focus: #f45359;
+  --accent-content: #ffffff;
+  
+  /* Neutral colors */
+  --neutral: #3d4451;
+  --neutral-focus: #2a2e37;
+  --neutral-content: #ffffff;
+  
+  /* Base colors - Light */
+  --base-100: #fce4ec;
+  --base-200: #f8bbd0;
+  --base-300: #f48fb1;
+  --base-content: #1f2937;
+}
+
+[data-theme="valentine"] {
+  background-color: #ffffff;
+  color: var(--base-content);
+}
+
+[data-theme="valentine"] h1,
+[data-theme="valentine"] h2,
+[data-theme="valentine"] h3 {
+  color: var(--primary);
+}
+
+[data-theme="valentine"] .button {
+  background-color: var(--primary);
+  color: var(--primary-content);
+  border: none;
+}
+
+[data-theme="valentine"] .button:hover {
+  background-color: var(--primary-focus);
+  color: var(--primary-content);
+}
+
+[data-theme="valentine"] .user-input-feelings,
+[data-theme="valentine"] .product-details {
+  border-color: var(--primary);
+  background-color: rgba(246, 74, 138, 0.05);
+  color: var(--base-content);
+}
+
+[data-theme="valentine"] .card {
+  background-color: var(--base-100);
+  border: 2px solid var(--primary);
+  color: var(--base-content);
+}
+
+[data-theme="valentine"] .card h2 {
+  color: var(--primary);
+}
+
+[data-theme="valentine"] .generated-poem p,
+[data-theme="valentine"] .generated-description p {
+  border-left-color: var(--primary);
+  background-color: rgba(246, 74, 138, 0.1);
+  color: var(--base-content);
+}
+
+[data-theme="valentine"] a {
+  color: var(--primary);
+}
+
+html[data-theme="synthwave"],
+[data-theme="synthwave"] {
+  color-scheme: dark;
+  
+  /* Primary colors - Neon Pink */
+  --primary: #ff006e;
+  --primary-focus: #e6005c;
+  --primary-content: #ffffff;
+  
+  /* Secondary colors - Cyan */
+  --secondary: #00d9ff;
+  --secondary-focus: #00c7e6;
+  --secondary-content: #000000;
+  
+  /* Accent colors - Purple */
+  --accent: #9d4edd;
+  --accent-focus: #8a3fc6;
+  --accent-content: #ffffff;
+  
+  /* Neutral colors */
+  --neutral: #3a0ca3;
+  --neutral-focus: #240046;
+  --neutral-content: #e0aaff;
+  
+  /* Base colors - Dark purple/black */
+  --base-100: #0a0e27;
+  --base-200: #16213e;
+  --base-300: #1a1f3a;
+  --base-content: #e0aaff;
+}
+
+[data-theme="synthwave"] {
+  background: linear-gradient(135deg, #0a0e27 0%, #16213e 50%, #0a0e27 100%);
+  background-attachment: fixed;
+  color: var(--base-content);
+}
+
+[data-theme="synthwave"] body {
+  background: linear-gradient(135deg, #0a0e27 0%, #16213e 50%, #0a0e27 100%);
+  background-attachment: fixed;
+}
+
+[data-theme="synthwave"] header {
+  background: rgba(16, 33, 62, 0.8);
+  border-bottom: 2px solid var(--primary);
+  box-shadow: 0 0 20px rgba(255, 0, 110, 0.3);
+}
+
+[data-theme="synthwave"] h1,
+[data-theme="synthwave"] h2,
+[data-theme="synthwave"] h3 {
+  color: var(--primary);
+  text-shadow: 0 0 10px rgba(255, 0, 110, 0.5);
+}
+
+[data-theme="synthwave"] .button {
+  background-color: var(--primary);
+  color: #ffffff;
+  border: 2px solid var(--primary);
+  box-shadow: 0 0 10px rgba(255, 0, 110, 0.5);
+}
+
+[data-theme="synthwave"] .button:hover {
+  background-color: var(--primary-focus);
+  color: #ffffff;
+  box-shadow: 0 0 20px rgba(255, 0, 110, 0.8);
+}
+
+[data-theme="synthwave"] .user-input-feelings,
+[data-theme="synthwave"] .product-details {
+  border-color: var(--secondary);
+  background-color: rgba(0, 217, 255, 0.05);
+  color: var(--base-content);
+}
+
+[data-theme="synthwave"] .card {
+  background-color: rgba(16, 33, 62, 0.6);
+  border: 2px solid var(--secondary);
+  color: var(--base-content);
+  box-shadow: 0 0 15px rgba(0, 217, 255, 0.3);
+}
+
+[data-theme="synthwave"] .card h2 {
+  color: var(--secondary);
+  text-shadow: 0 0 10px rgba(0, 217, 255, 0.5);
+}
+
+[data-theme="synthwave"] .card p {
+  color: var(--base-content);
+}
+
+[data-theme="synthwave"] .generated-poem p,
+[data-theme="synthwave"] .generated-description p {
+  border-left-color: var(--primary);
+  background-color: rgba(255, 0, 110, 0.15);
+  color: var(--base-content);
+}
+
+[data-theme="synthwave"] footer {
+  background: rgba(16, 33, 62, 0.8);
+  border-top: 2px solid var(--primary);
+}
+
+[data-theme="synthwave"] a {
+  color: var(--secondary);
+}
+
+html[data-theme="dracula"],
+[data-theme="dracula"] {
+  color-scheme: dark;
+  
+  /* Primary colors - Purple */
+  --primary: #bd93f9;
+  --primary-focus: #a57bda;
+  --primary-content: #282a36;
+  
+  /* Secondary colors - Pink */
+  --secondary: #ff79c6;
+  --secondary-focus: #ff5ab9;
+  --secondary-content: #282a36;
+  
+  /* Accent colors - Cyan */
+  --accent: #8be9fd;
+  --accent-focus: #6fe7f9;
+  --accent-content: #282a36;
+  
+  /* Neutral colors */
+  --neutral: #44475a;
+  --neutral-focus: #282a36;
+  --neutral-content: #f8f8f2;
+  
+  /* Base colors - Dark */
+  --base-100: #282a36;
+  --base-200: #21222c;
+  --base-300: #191a21;
+  --base-content: #f8f8f2;
+}
+
+[data-theme="dracula"] {
+  background-color: var(--base-100);
+  color: var(--base-content);
+}
+
+[data-theme="dracula"] body {
+  background-color: var(--base-100);
+}
+
+[data-theme="dracula"] header {
+  background-color: var(--base-200);
+  border-bottom: 1px solid var(--base-300);
+}
+
+[data-theme="dracula"] h1,
+[data-theme="dracula"] h2,
+[data-theme="dracula"] h3 {
+  color: var(--primary);
+}
+
+[data-theme="dracula"] .button {
+  background-color: var(--primary);
+  color: var(--primary-content);
+  border: none;
+}
+
+[data-theme="dracula"] .button:hover {
+  background-color: var(--primary-focus);
+  color: var(--primary-content);
+}
+
+[data-theme="dracula"] .user-input-feelings,
+[data-theme="dracula"] .product-details {
+  border-color: var(--primary);
+  background-color: rgba(189, 147, 249, 0.1);
+  color: var(--base-content);
+}
+
+[data-theme="dracula"] .card {
+  background-color: var(--base-200);
+  border: 2px solid var(--primary);
+  color: var(--base-content);
+}
+
+[data-theme="dracula"] .card h2 {
+  color: var(--accent);
+}
+
+[data-theme="dracula"] .card p {
+  color: var(--base-content);
+}
+
+[data-theme="dracula"] .generated-poem p,
+[data-theme="dracula"] .generated-description p {
+  border-left-color: var(--primary);
+  background-color: rgba(189, 147, 249, 0.15);
+  color: var(--base-content);
+}
+
+[data-theme="dracula"] footer {
+  background-color: var(--base-200);
+  border-top: 1px solid var(--base-300);
+}
+
+[data-theme="dracula"] a {
+  color: var(--accent);
+}
+
+html[data-theme="garden"],
+[data-theme="garden"] {
+  color-scheme: light;
+  
+  /* Primary colors - Green */
+  --primary: #15803d;
+  --primary-focus: #166534;
+  --primary-content: #ffffff;
+  
+  /* Secondary colors - Green accent */
+  --secondary: #22c55e;
+  --secondary-focus: #16a34a;
+  --secondary-content: #ffffff;
+  
+  /* Accent colors - Light green */
+  --accent: #86efac;
+  --accent-focus: #4ade80;
+  --accent-content: #1f2937;
+  
+  /* Neutral colors */
+  --neutral: #3d4451;
+  --neutral-focus: #2a2e37;
+  --neutral-content: #ffffff;
+  
+  /* Base colors - Light cream/white */
+  --base-100: #f8f9f6;
+  --base-200: #e8f5e9;
+  --base-300: #d4edda;
+  --base-content: #1f2937;
+}
+
+[data-theme="garden"] {
+  background-color: #ffffff;
+  color: var(--base-content);
+}
+
+[data-theme="garden"] h1,
+[data-theme="garden"] h2,
+[data-theme="garden"] h3 {
+  color: var(--primary);
+}
+
+[data-theme="garden"] .button {
+  background-color: var(--primary);
+  color: var(--primary-content);
+  border: none;
+}
+
+[data-theme="garden"] .button:hover {
+  background-color: var(--primary-focus);
+  color: var(--primary-content);
+}
+
+[data-theme="garden"] .user-input-feelings,
+[data-theme="garden"] .product-details {
+  border-color: var(--primary);
+  background-color: rgba(34, 197, 94, 0.05);
+  color: var(--base-content);
+}
+
+[data-theme="garden"] .card {
+  background-color: var(--base-100);
+  border: 2px solid var(--secondary);
+  color: var(--base-content);
+}
+
+[data-theme="garden"] .card h2 {
+  color: var(--primary);
+}
+
+[data-theme="garden"] .generated-poem p,
+[data-theme="garden"] .generated-description p {
+  border-left-color: var(--primary);
+  background-color: rgba(34, 197, 94, 0.1);
+  color: var(--base-content);
+}
+
+[data-theme="garden"] a {
+  color: var(--primary);
+}

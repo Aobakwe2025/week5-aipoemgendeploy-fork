@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html lang="en" data-theme="valentine">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LoveLines</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/themes.css" />
+</head>
+<body>
+  <header>
+    <h1>LoveLines</h1>
+  </header>
+
+  <main class="card-container">
+    <div class="container">
+      <div class="form-section">
+        <form id="form-group">
+          <label class="sub-label">What are you feeling?</label>
+          <textarea
+            class="user-input-feelings"
+            id="user-input-feelings"
+            placeholder="I want a heartful way of expressing my appreciation for..."
+            required
+            autofocus
+          ></textarea>
+          <input type="submit" class="button" id="button" value="GENERATE" />
+        </form>
+      </div>
+
+      <div class="output-section">
+        <h3>Generated Poem</h3>
+        <div class="generated-poem">
+          <p id="poem"></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MuseMind - Created by Git Girls</p>
+  </footer>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="Script/lovelines.js"></script>
+</body>
+</html>
